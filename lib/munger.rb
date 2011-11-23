@@ -10,6 +10,7 @@ require 'munger/render/csv'
 require 'munger/render/html'
 require 'munger/render/sortable_html'
 require 'munger/render/text'
+require 'munger/render/json'
 
 module Munger
   VERSION = '0.1.3'
