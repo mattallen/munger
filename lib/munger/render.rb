@@ -19,8 +19,8 @@ module Munger #:nodoc:
       CSV::new(report).render
     end
 
-    def self.to_jason(report, options = {})
-      JSON::new(report, options).render
+    def self.to_jason(report)
+      JSON::new(report).render
     end
   end
 end
